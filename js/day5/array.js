@@ -1,0 +1,29 @@
+//task 1
+let stuName=["John","Gokul","Jack","Marry","Devil"]
+console.log(stuName[0]);
+console.log(stuName[2]);
+console.log(stuName[4]);
+  //task 2
+  let proPrice=[1500, 2500, 3500, 4500, 5500]
+  console.log(proPrice[0]);
+    console.log(proPrice[2]);
+      console.log(proPrice[4]);
+      console.log(proPrice[0]+proPrice[4]);
+      
+//task 3
+let courseValue=["HTML", "CSS", "JavaScript", "React", "Node"]
+console.log(courseValue[2]);
+console.log(courseValue[3]);
+console.log(courseValue[courseValue.length-1]);
+//task 4
+let data = [["Arun", 80], ["Bala", 75],["Kumar", 90]];
+console.log(data[0][0]);
+console.log(data[0][1]);
+console.log(data[1][0]);
+console.log(data[1][1]);
+
+//task 5
+let num= [10, 20, 30, 40, 50];
+console.log(num[1]);
+console.log(num[num.length-2]);
+console.log(num[1]+num[num.length-2]);
