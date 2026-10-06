@@ -1,0 +1,36 @@
+
+/* Main Navbar */
+.nav {
+  background-color: #222;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 40px;
+}
+
+/* Website Name */
+.nav h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Navigation Links */
+.home {
+  display: flex;
+  gap: 30px;
+}
+
+/* Links */
+.home a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Hover Effect */
+.home a:hover {
+  color: #00bcd4;
+}
