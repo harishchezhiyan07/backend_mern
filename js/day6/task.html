@@ -1,0 +1,17 @@
+<script>
+    const numbers = [12, 55, 25, 55, 35];
+
+let first = -Infinity;
+let second = -Infinity;
+
+for (let num of numbers) {
+  if (num > first) {
+    second = first;
+    first = num;
+  } else if (num > second && num !== first) {
+    second = num;
+  }
+}
+
+console.log(second);
+</script>
